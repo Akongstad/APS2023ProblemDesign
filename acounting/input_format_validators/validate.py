@@ -8,7 +8,7 @@ n = int(firstline)
 assert 2 < n < 200001
 
 secondline = sys.stdin.readline()
-assert re.match(r"(0|-?[1-9][0-9]*) (0|-?[1-9][0-9]*) (0 ?|-?[1-9][0-9]* ?)*\n", secondline), secondline
+assert re.match(r"(0 ?|-?[1-9][0-9]{0,4} )*(0 ?|-?[1-9][0-9]{0,4})\n", secondline), secondline
 
 array = secondline.split()
 
