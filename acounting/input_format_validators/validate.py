@@ -5,7 +5,7 @@ firstline = sys.stdin.readline()
 assert re.match(r"(0|-?[1-9][0-9]*)\n", firstline), firstline
 
 n = int(firstline)
-assert 2 < n < 200001
+assert 2 < n < 301
 
 secondline = sys.stdin.readline()
 assert re.match(r"(0 ?|-?[1-9][0-9]{0,4} )*(0 ?|-?[1-9][0-9]{0,4})\n", secondline), secondline
