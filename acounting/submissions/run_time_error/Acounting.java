@@ -1,4 +1,4 @@
-package acounting.submissions.accepted;
+package acounting.submissions.run_time_error;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class Acounting {
         int n = sc.nextInt();
         ArrayList<Integer> a = new ArrayList<Integer>();
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n+1; i++) {
             a.add(sc.nextInt());
         }
 
@@ -25,3 +25,4 @@ public class Acounting {
         sc.close();
     }
 }
+

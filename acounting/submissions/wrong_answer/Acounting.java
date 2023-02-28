@@ -21,5 +21,7 @@ public class Acounting {
         }
 
         System.out.println(sum);
+
+        sc.close();
     }
 }
