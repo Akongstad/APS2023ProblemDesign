@@ -1,5 +1,3 @@
-package acounting.submissions.run_time_error;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 

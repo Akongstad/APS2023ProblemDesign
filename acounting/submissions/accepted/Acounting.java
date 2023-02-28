@@ -1,5 +1,3 @@
-package acounting.submissions.accepted;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -14,7 +12,7 @@ public class Acounting {
             a.add(sc.nextInt());
         }
 
-        int sum = 0;
+        int sum = 0;ßß
 
         for (Integer integer : a) {
             sum += integer;

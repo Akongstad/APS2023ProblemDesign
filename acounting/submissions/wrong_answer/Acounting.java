@@ -1,5 +1,3 @@
-package acounting.submissions.wrong_answer;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
