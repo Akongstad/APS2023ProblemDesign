@@ -1,4 +1,4 @@
-package acounting.submissions.accepted;
+package acounting.submissions.wrong_answer;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class Acounting {
         int n = sc.nextInt();
         ArrayList<Integer> a = new ArrayList<Integer>();
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             a.add(sc.nextInt());
         }
 
